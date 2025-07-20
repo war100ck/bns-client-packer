@@ -1,0 +1,22 @@
+{
+  "name": "bns-client-packer",
+  "version": "1.0.0",
+  "description": "BNS Client Packer Tool",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --max-old-space-size=4096 app.js",
+    "pack-all": "node --max-old-space-size=4096 app.js",
+    "pack-data": "node --max-old-space-size=4096 app.js contents/Local/GARENA/data/"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.6",
+    "chalk": "^4.1.2",
+    "ini": "^3.0.1",
+    "md5-file": "^5.0.0",
+    "recursive-readdir-sync": "^1.0.6",
+    "wildcard-match": "^5.1.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
