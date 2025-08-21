@@ -1,0 +1,40 @@
+# Все текстовые файлы храним в Git с LF
+* text=auto eol=lf
+
+# Скрипты bash и sh — строго LF
+*.sh text eol=lf
+
+# Скрипты PowerShell и батники — строго CRLF
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Java, JS, TS, Python, C#, C++, HTML, CSS, JSON и т.п. всегда LF
+*.java text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.py text eol=lf
+*.cs text eol=lf
+*.cpp text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.xml text eol=lf
+
+# Бинарные файлы не трогаем (Git не будет пытаться менять окончания строк)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.zip binary
+*.7z binary
+*.rar binary
+*.gz binary
+*.pdf binary
