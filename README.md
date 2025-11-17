@@ -1,4 +1,4 @@
-![ViewCount](https://hits.sh/github.com/war100ck/bns-client-packer.svg?style=flat-square) ![Downloads](https://img.shields.io/github/downloads/war100ck/bns-client-packer/total)
+![ViewCount](https://hits.sh/github.com/war100ck/bns-client-packer.svg?style=flat-square)
 
 
 # BNS Client Packer
